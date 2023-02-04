@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ques_screen"
+    android:orientation="vertical"
+    android:background="@color/black"
+    android:layout_gravity="center">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_margin="30dp"
+        android:maxWidth="50dp"
+        android:maxHeight="50dp"
+        android:src="@drawable/back_ground_ques"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="30dp">
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="0dp"
+
+            android:progressBackgroundTintMode="screen"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:max="12"
+            android:layout_weight="1"
+            android:minHeight="50dp"
+            android:progress="1"
+            android:indeterminate="false"
+            android:outlineSpotShadowColor="@color/white"
+            android:outlineAmbientShadowColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/tv_progress"
+            android:layout_width="57dp"
+            android:layout_height="match_parent"
+            android:text="1/12"
+            android:textColor="@color/open_yellow"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+
+
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/dark_yellow"
+        android:text="Question"
+        android:gravity=""
+        android:textSize="27dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginVertical="20dp"
+
+        />
+    <TextView
+        android:id="@+id/opOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/dark_yellow"
+        android:text="Question"
+        android:gravity="center"
+        android:textSize="22dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="10dp"
+
+
+        />
+    <TextView
+        android:id="@+id/opTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/dark_yellow"
+        android:text="Question"
+        android:gravity="center"
+        android:textSize="22dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="10dp"/>
+    <TextView
+        android:id="@+id/opThree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/dark_yellow"
+        android:text="Question"
+        android:gravity="center"
+        android:textSize="22dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="10dp"/>
+    <TextView
+        android:id="@+id/opFour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/dark_yellow"
+        android:text="Question"
+        android:gravity="center"
+        android:textSize="22dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="10dp"/>
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="60dp"
+        android:paddingVertical="15dp"
+        android:text="SUBMIT"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/dark_yellow"
+        android:textSize="20sp"
+        />
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#000000">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="222dp"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="?"
+        android:textColor="@color/dark_yellow"
+        android:textSize="200sp"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to The QuesParty"
+        android:textColor="@color/dark_yellow"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        >
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please enter your name"
+        android:textColor="@color/grey"
+        android:textSize="20sp"
+        android:gravity="center"
+        >
+    </TextView>
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="100dp"
+        android:layout_marginVertical="20dp"
+        android:backgroundTint="@color/open_yellow"
+        android:hint="Name"
+        android:minHeight="48dp"
+        android:singleLine="true"
+        android:textColor="@color/open_yellow"
+        android:textColorHint="@color/dark_yellow" />
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="173dp"
+        android:layout_height="71dp"
+        android:layout_margin="3dp"
+        android:backgroundTint="@color/dark_yellow"
+        android:text="Start" />
+
+
+
+
+
+
+
+</LinearLayout>
