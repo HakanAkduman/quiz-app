@@ -158,7 +158,7 @@ class Questions {
         questionList.add(ques19)
         var ques20=Question(
             "Whose picture is over \$50 USD?"
-            ,"Ulysses S. Grant","Thomas Jefferson","Alexander Hamilton","Hakan AKDUMAN :D",
+            ,"Ulysses S. Grant","Thomas Jefferson","Alexander Hamilton","Hakan AKDUMAN :)",
             "Ulysses S. Grant",
             false,R.drawable.back_ground_ques,
             2
